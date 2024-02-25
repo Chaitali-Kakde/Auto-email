@@ -3,6 +3,7 @@ This is an app script code to auto send tables in email body daily on scheduled 
 1. Create Google sheet and add table which you want to share in email daily.
 2. copy below code into app script and run.
 3. Make changes in referance and sheets name as required.
+4. Set a trigger on Apps Script as per requirement.
 
 function SendMail(data) {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("Shrinkage Report");
